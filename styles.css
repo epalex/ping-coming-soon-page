@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: tomato;
+}
+
+.paminos {
+  color: tomato;
+  font-weight: 600;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 500;
+  color: darkgrey;
+}
