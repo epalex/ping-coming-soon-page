@@ -81,15 +81,6 @@ input[type=submit] {
   line-height: 16px;
   text-align: center;
 }
-/* 
-input[type=submit]::placeholder {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-} */
-
 
 .illustration-img {
   width: 100%;
@@ -190,6 +181,11 @@ footer {
     width: 200px;
   }
 
+  input[type=submit]:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+
   input[type=email] {
     max-width: 450px;
     margin-bottom: unset;
@@ -197,6 +193,11 @@ footer {
 
   input[type=email]::placeholder {
     font-size: 16px;
+  }
+
+  .fab:hover {
+    background-color: #4c7bf3;
+    color: white;
   }
 
 }
