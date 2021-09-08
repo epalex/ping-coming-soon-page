@@ -75,15 +75,20 @@ input[type=submit] {
   border: none;
   padding-top: 16px;
   padding-bottom: 16px;
-}
-
-input[type=submit]::placeholder {
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
 }
+/* 
+input[type=submit]::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+} */
 
 
 .illustration-img {
@@ -138,4 +143,60 @@ footer {
   font-weight: 500;
   color: blue;
   margin-top: 48px;
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  header p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto 72px auto;
+  }
+
+  .illustration-img {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  footer {
+    margin-top: 72px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  input[type=submit] {
+    font-size: 16px;
+    line-height: 19px;
+    width: 200px;
+  }
+
+  input[type=email] {
+    max-width: 450px;
+    margin-bottom: unset;
+  }
+
+  input[type=email]::placeholder {
+    font-size: 16px;
+  }
+
 }
