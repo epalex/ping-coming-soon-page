@@ -41,18 +41,94 @@ header p {
   color: #15202a;
 }
 
+form {
+  margin-bottom: 72px;
+}
+
+input[type=email] {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #c2d3ff;
+  border-radius: 28px;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.0001);
+}
+
+input[type=email]::placeholder {
+  padding-left: 24px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  color: #b8c7ed;
+}
+
+input[type=submit] {
+  background-color: #4c7bf3;
+  box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.230414);
+  border-radius: 28px;
+  width: 100%;
+  display: block;
+  color: white;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+input[type=submit]::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+
 .illustration-img {
   width: 100%;
   display: block;
 }
 
+.social-icons {
+  text-align: center;
+}
+
+.social-icons a {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+.fab {
+  color: #4c7bf3;
+  border: 2px solid rgba(76, 123, 243, 0.15);
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.copyright {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #969696;
+  margin-top: 32px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 120px;
+}
+
 .my-footer a {
   text-decoration: none;
-  color: tomato;
+  color: yellowgreen;
 }
 
 .paminos {
-  color: tomato;
+  color: yellow;
   font-weight: 600;
 }
 
@@ -60,5 +136,6 @@ header p {
   font-size: 13px;
   text-align: center;
   font-weight: 500;
-  color: darkgrey;
+  color: blue;
+  margin-top: 48px;
 }
