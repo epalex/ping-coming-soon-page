@@ -144,7 +144,8 @@ footer {
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.15px;
-  margin-left: 20%;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 #email.invalid {
@@ -152,6 +153,7 @@ footer {
 }
 
 #emailError.visible {
+  margin-top: -55px;
   display: block;
 }
 
@@ -219,6 +221,22 @@ footer {
   .fab:hover {
     background-color: #4c7bf3;
     color: white;
+  }
+
+  #emailError {
+    display: none;
+    color: #ff5466;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+    margin-left: 20%;
+    text-align: left;
+  }
+
+  #emailError.visible {
+    margin-top: unset;
   }
 
 }
