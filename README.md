@@ -22,14 +22,11 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-## Useful resources
-
--
-
 ## Author
 
 - Frontend Mentor - [@epalex](https://www.frontendmentor.io/profile/epalex)
 
 ## Open issues
 
--
+- javascript form handling needs adaptations and improvements
+- mobile view error should be placed differently
